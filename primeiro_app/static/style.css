@@ -1,0 +1,102 @@
+body {
+    background-color: #e9ecef;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.info-panel {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    margin: 4rem auto;
+    max-width: 720px;
+    transition: transform 0.3s ease;
+}
+
+.info-panel:hover {
+    transform: translateY(-4px);
+}
+
+.info-panel h5 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+.info-panel p {
+    font-size: 1.1rem;
+    color: #343a40;
+}
+
+.btn-custom {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0954c1;
+}
+
+.nav-bottom-right {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+}
+
+.pagination .page-link {
+    border-radius: 8px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Cards */
+.card-group {
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+/* Estilização do card */
+.card-title {
+    color: #0d6efd;
+}
+
+.card-text {
+    color: #6c757d;
+}
