@@ -20,7 +20,7 @@ Este projeto visa aplicar conhecimentos de HTML, CSS e lógica de programação 
 
 - **HTML**: Estruturação da página e conteúdo
 - **CSS**: Estilização e layout responsivo
-- **JavaScript**: Interatividade e dinamicidade
+- **PYTHON**: Linguagem utilizada
 - **Imagens e ícones**: Recursos visuais para enriquecer a experiência do usuário
 
 ---
